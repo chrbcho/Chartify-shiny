@@ -80,19 +80,19 @@ server <- function(input, output, session) {
   # ── OUTPUT COMPONENTS ──────────────────────────────────────────────
   
   output$avg_stream <-  renderText({
-    validate(need(nrow(filtered_data()) > 0, ""))
+    validate(need(nrow(filtered_data()) > 0, "No data found"))
     value <- mean(filtered_data()$Stream, na.rm = TRUE)
     format(round(value, 0), big.mark = ",")
   })
   
   output$avg_likes <-  renderText({
-    validate(need(nrow(filtered_data()) > 0, ""))
+    validate(need(nrow(filtered_data()) > 0, "No data found"))
     value <- mean(filtered_data()$Likes, na.rm = TRUE)
     format(round(value, 0), big.mark = ",")
   })
   
   output$avg_views <- renderText({
-    validate(need(nrow(filtered_data()) > 0, ""))
+    validate(need(nrow(filtered_data()) > 0, "No data found"))
     value <- mean(filtered_data()$Views, na.rm = TRUE)
     format(round(value, 0), big.mark = ",")
   })
@@ -105,7 +105,10 @@ server <- function(input, output, session) {
     filtered_data() |>
       arrange(desc(Stream)) |>
       slice_head(n = 5) |>
-      select(Track, Artist, Album, Stream)
+      select(Track, Artist, Album, Stream) |> 
+      mutate(
+        Stream = format(round(Stream, 0), big.mark = ",", scientific = FALSE)
+      )
   })
 }
 
