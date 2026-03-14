@@ -34,7 +34,7 @@ You can access the deployed dashboard here: https://chrbcho-chartify-shiny.share
 
 If you are interested in contributing to this dashboard, please review the [CONTRIBUTING.md](./CONTRIBUTING.md) document for more information. To run the app locally, please follow the steps in the "Run the Dashboard Locally" section above.
 
-By contributing to the project you accept and agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+Please note that the Chartify-shiny project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms. [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Copyright
 - Copyright (c) 2026 [Christine Chow](https://github.com/chrbcho)
