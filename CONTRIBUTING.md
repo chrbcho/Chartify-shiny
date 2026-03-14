@@ -13,7 +13,7 @@ You can contribute in many ways, for example:
 * [Submit Feedback](#submit-feedback)
 
 ## Report Bugs
-Report bugs at https://github.com/chrbcho/Chartify-shiny/issues.
+Report bugs at https://github.com/chrbcho/Chartify-R/issues.
 
 **If you are reporting a bug, please follow the template guidelines. The more detailed your report, the easier and thus faster we can help you.**
 
@@ -24,7 +24,7 @@ Look through the GitHub issues for bugs. Anything labelled with `bug` and `help 
 Look through the GitHub issues for features. Anything labelled with `enhancement` and `help wanted` is open to whoever wants to implement it. As for [fixing bugs](#fix-bugs), please assign yourself to the issue and add a comment that you'll be working on that, too. If another enhancement catches your fancy, but it doesn't have the `help wanted` label, just post a comment, the maintainers are usually happy for any support that they can get.
 
 ## Write Documentation
-Chartify could always use more documentation, whether as part of the official documentation, in docstrings, or even on the web in blog posts, articles, and such. Just [open an issue](https://github.com/chrbcho/Chartify-shiny/issues) to let us know what you will be working on so that we can provide you with guidance.
+Chartify could always use more documentation, whether as part of the official documentation, in docstrings, or even on the web in blog posts, articles, and such. Just [open an issue](https://github.com/chrbcho/Chartify-R/issues) to let us know what you will be working on so that we can provide you with guidance.
 
 ## Submit Feedback
-The best way to send feedback is to file an issue at https://github.com/chrbcho/Chartify-shiny/issues. If your feedback fits the format of one of the issue templates, please use that. Remember that this is a volunteer-driven project and everybody has limited time.
+The best way to send feedback is to file an issue at https://github.com/chrbcho/Chartify-R/issues. If your feedback fits the format of one of the issue templates, please use that. Remember that this is a volunteer-driven project and everybody has limited time.
